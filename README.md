@@ -10,10 +10,19 @@ Nodal Glass is a just-for-fun side project from [Cryptix Security](https://githu
 
 [![Sponsor Cryptix Security](https://img.shields.io/badge/Sponsor-Cryptix%20Security-E6D3AE?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Cryptix-Security)
 
+## See it in action
+
+[![Play the sample video](screenshots/sample-video-poster.jpg)](samples/nodal-glass-a432-just-minor-penta.mp4)
+
+This sample runs for three and a half minutes and was made with Nodal Glass's own recorder. It uses a mandala plate, A = 432 Hz tuning, just intonation and the minor pentatonic scale. Click the picture to play it, with your sound on.
+
+The repository holds a compressed copy of about 43 MB to keep downloads small. The app itself records at full quality.
+
 ---
 
 ## Contents
 
+- [See it in action](#see-it-in-action)
 - [Getting started](#getting-started)
 - [A tour of the controls](#a-tour-of-the-controls)
 - [Recording a video for YouTube](#recording-a-video-for-youtube)
