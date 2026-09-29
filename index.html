@@ -327,10 +327,10 @@ const TIMBRES = {
   reed: {label: 'Warm reed', h: [0,1,.55,.35,.22,.14,.09,.06], lp: 1800, g: .9}
 };
 const PLATES = {
-  square: {label: 'Square plate', sym: 0},
-  m6: {label: 'Mandala, 6-fold', sym: 6},
+  m12: {label: 'Mandala, 12-fold', sym: 12},
   m8: {label: 'Mandala, 8-fold', sym: 8},
-  m12: {label: 'Mandala, 12-fold', sym: 12}
+  m6: {label: 'Mandala, 6-fold', sym: 6},
+  square: {label: 'Square plate', sym: 0}
 };
 const FRAMES = {
   '1080p': {label: '1920 × 1080, YouTube 16:9', w: 1920, h: 1080, vbr: 8e6},
@@ -355,9 +355,9 @@ const KEY_DEG = [4,5,6,7,8,9,10,11];
 let reduceMotion = false;
 try { reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
 const DEF = {scale: 'minor-penta', root: 9, timbre: 'organ', pace: 1, volume: .8, reverb: .45,
-  plate: 'square', zoom: 1, rotation: 0, shimmer: reduceMotion ? .4 : 1, glass: 1, lines: 5, readout: true,
+  plate: 'm12', zoom: 1, rotation: 0, shimmer: reduceMotion ? .4 : 1, glass: 1, lines: 5, readout: true,
   frame: '1080p', fps: 30, quality: 'std', autostop: 0, fade: true, voices: [true, true, true, true],
-  tuning: 'a440', freq: 528, intonation: 'equal', holdDrone: false,
+  tuning: 'a432', freq: 528, intonation: 'equal', holdDrone: false,
   colors: ['#8B83E8', '#4FC39C', '#F2C66B', '#E0605A', '#D9CBB0']};
 const S = Object.assign({}, DEF, {voices: DEF.voices.slice(), colors: DEF.colors.slice()});
 try {
@@ -374,7 +374,7 @@ if (!FRAMES[S.frame]) S.frame = DEF.frame;
 if (!(S.root >= 0 && S.root <= 11)) S.root = DEF.root;
 if (S.fps !== 30 && S.fps !== 60) S.fps = 30;
 if (S.quality !== 'std' && S.quality !== 'high') S.quality = 'std';
-if (!['a440', 'a432', 'freq'].includes(S.tuning)) S.tuning = 'a440';
+if (!['a440', 'a432', 'freq'].includes(S.tuning)) S.tuning = 'a432';
 if (!(S.freq >= 20 && S.freq <= 2000)) S.freq = 528;
 if (S.intonation !== 'equal' && S.intonation !== 'just') S.intonation = 'equal';
 if (!Array.isArray(S.colors) || S.colors.length !== 5) S.colors = DEF.colors.slice();

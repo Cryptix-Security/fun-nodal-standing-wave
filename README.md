@@ -116,7 +116,7 @@ Eight notes you can add on top of the voices. Tap one to hold it and tap again t
 
 - **Reference** picks what the music is tuned to.
   - *Standard, A = 440 Hz* is the tuning almost all modern music uses.
-  - *A = 432 Hz* is a popular alternative that sits slightly lower.
+  - *A = 432 Hz*, the default, is a popular alternative that sits slightly lower.
   - *Built on a frequency* builds the whole scale on any frequency you type in. Buttons for the commonly used Solfeggio set (174, 285, 396, 417, 528, 639, 741, 852 and 963 Hz) are one tap away. The hint underneath tells you where that exact frequency appears, for example "528 Hz itself comes up … on key 7."
 - **Key** (standard tunings only) chooses the home note.
 - **Intonation**
@@ -130,7 +130,7 @@ Eight notes you can add on top of the voices. Tap one to hold it and tap again t
 
 <img src="screenshots/panel-visuals.png" width="380" align="right" alt="The Visuals panel">
 
-- **Plate** switches between a square plate and 6-, 8- or 12-fold mandalas.
+- **Plate** chooses the shape: a 12-, 8- or 6-fold mandala, or a square plate. The 12-fold mandala is the default.
 - **Zoom** moves the pattern closer or farther.
 - **Rotation** slowly turns the pattern, in degrees per minute. Set it to 0 to keep it still.
 - **Shimmer** sets how fast the colored panes pulse.
