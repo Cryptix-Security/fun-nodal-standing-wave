@@ -12,7 +12,7 @@ Nodal Glass is a just-for-fun side project from [Cryptix Security](https://githu
 
 ## See it in action
 
-[![Play the sample video](screenshots/sample-video-poster.jpg)](samples/nodal-glass-a432-just-minor-penta.mp4)
+[![Play the sample video](screenshots/sample-video-poster.jpg)](https://cryptix-security.github.io/fun-nodal-standing-wave/samples/nodal-glass-a432-just-minor-penta.mp4)
 
 This sample runs for three and a half minutes and was made with Nodal Glass's own recorder. It uses a mandala plate, A = 432 Hz tuning, just intonation and the minor pentatonic scale. Click the picture to play it, with your sound on.
 
