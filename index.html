@@ -355,7 +355,7 @@ const KEY_DEG = [4,5,6,7,8,9,10,11];
 let reduceMotion = false;
 try { reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
 const DEF = {scale: 'minor-penta', root: 9, timbre: 'organ', pace: 1, volume: .8, reverb: .45,
-  plate: 'm12', zoom: 1, rotation: 0, shimmer: reduceMotion ? .4 : 1, glass: 1, lines: 5, readout: true,
+  plate: 'm12', zoom: 1, rotation: 0, shimmer: reduceMotion ? .4 : 1, glass: 1, lines: 5, readout: false,
   frame: '1080p', fps: 30, quality: 'std', autostop: 0, fade: true, voices: [true, true, true, true],
   tuning: 'a432', freq: 528, intonation: 'equal', holdDrone: false,
   colors: ['#8B83E8', '#4FC39C', '#F2C66B', '#E0605A', '#D9CBB0']};

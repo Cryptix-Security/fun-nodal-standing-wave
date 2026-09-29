@@ -136,7 +136,7 @@ Eight notes you can add on top of the voices. Tap one to hold it and tap again t
 - **Shimmer** sets how fast the colored panes pulse.
 - **Glass** sets how strongly the panes between the lines are colored.
 - **Sand lines** sets how thick the bright lines are.
-- **Show the note readout** shows or hides the list of notes in the corner. The readout never appears in recordings.
+- **Show the note readout** adds a list of the sounding notes, with their frequencies, in the corner of the stage. It's off by default and never appears in recordings.
 
 <br clear="right">
 
